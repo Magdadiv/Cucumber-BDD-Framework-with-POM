@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SeleniumAutomation" verbose="10">
+	
+	<test name="test1">
+
+		<classes>
+			<class name="Demosuite.Testsuite1">
+								
+			</class>
+		</classes>
+	</test>
+</suite>
