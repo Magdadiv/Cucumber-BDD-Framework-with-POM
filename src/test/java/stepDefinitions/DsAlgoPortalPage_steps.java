@@ -45,7 +45,7 @@ public class DsAlgoPortalPage_steps {
 	public void user_navigated_to_home_page() {
 		
 		System.out.println("Url of the current page is : " + DriverFactory.getDriver().getCurrentUrl());
-		Assert.assertEquals(DriverFactory.getDriver().getCurrentUrl(),"https://dsportalapp.herokuapp.com/home");
+		Assert.assertEquals(DriverFactory.getDriver().getCurrentUrl(),"url");
 
 	}
 
