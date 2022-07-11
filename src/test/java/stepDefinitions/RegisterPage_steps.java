@@ -13,7 +13,7 @@ public class RegisterPage_steps {
 	
 	@Given("User is in Register page")
 	public void user_is_in_register_page() {
-		DriverFactory.getDriver().get("https://dsportalapp.herokuapp.com/register");
+		DriverFactory.getDriver().get("url");
 	}
 
 	@When("User enters valid <username>,<password>,<password confirmation>")
