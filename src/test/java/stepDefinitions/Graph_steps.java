@@ -26,7 +26,7 @@ public class Graph_steps {
 	
 	@Given("User already logged in to the application with valid <username> , <password>")
 	public void user_already_logged_in_to_the_application_with_valid(DataTable login) {
-	   DriverFactory.getDriver().get("https://dsportalapp.herokuapp.com/login");
+	   DriverFactory.getDriver().get("url");
 	gp =	lp.setlogin_graphPage(login.row(1).get(0), login.row(1).get(1));
 	
 		
