@@ -23,7 +23,7 @@ public class HomepageSteps {
 	
 	@Given("User is in the home page")
 	public void user_is_in_the_home_page() {
-		DriverFactory.getDriver().get("https://dsportalapp.herokuapp.com");
+		DriverFactory.getDriver().get("url");
 		hp = portalpg.clickgetstarted();
 	}
 	@Then("User sees {int} panes of different <data structures>")
