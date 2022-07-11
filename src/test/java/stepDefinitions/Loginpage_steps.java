@@ -20,7 +20,7 @@ public class Loginpage_steps {
 
 	@Given("User is on login page")
 	public void user_is_on_login_page() {
-		DriverFactory.getDriver().get("https://dsportalapp.herokuapp.com/login");
+		DriverFactory.getDriver().get("url");
 	}
 	@When("User enters  valid <username> ,<password>")
 	public void user_enters_valid_username_password(DataTable login) {
